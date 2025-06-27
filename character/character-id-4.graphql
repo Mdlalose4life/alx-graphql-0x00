@@ -1,11 +1,6 @@
-  query {
-  page2: characters(page: 4) {
-      results {
-        id
-        name
-        status
-        image
-      }
-    }
+query {
+  character(id: 4){
+    id
+    name
   }
- 
+}
